@@ -19,3 +19,9 @@ display: none;
 #content-scroll {
     scrollbar-width: none; /* Firefox */
 }
+
+.icon[data-icon="add-term-kanji"] {
+  background-image: none;
+}
+
+.icon[data-icon="add-term-kanji"]::after { content: "🌸"; }
